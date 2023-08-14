@@ -8,7 +8,7 @@ import './navbar.css'
 export const Navbar = () => {
     const navigate = useNavigate()
     return <div className = "navbar">
-        <img src= {logoImage} onClick={() => navigate('/')} />
+        <img src= {logoImage} onClick={() => navigate('/clairesdelights')} />
         <div className = "links">
             {/* <Link to ="/shop"> Shop</Link> */}
             <Link to ="/clairesdelights/shop"> 
