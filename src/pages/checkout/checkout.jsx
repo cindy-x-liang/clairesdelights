@@ -70,7 +70,7 @@ export const Checkout = () =>{
         <br />
         <br />
         <div></div>
-      <input type="submit" value="Submit Order" onClick={() => navigate('/orderplaced')}/>
+      <input type="submit" value="Submit Order" onClick={() => navigate('/clairesdelights/orderplaced')}/>
     </form>
     </div>
 };

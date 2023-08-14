@@ -11,10 +11,10 @@ export const Navbar = () => {
         <img src= {logoImage} onClick={() => navigate('/')} />
         <div className = "links">
             {/* <Link to ="/shop"> Shop</Link> */}
-            <Link to ="/shop"> 
+            <Link to ="/clairesdelights/shop"> 
             <Storefront size ={32}/>
             </Link> 
-            <Link to="/cart">
+            <Link to="/clairesdelights/cart">
                 <ShoppingBag size ={32}/>
             </Link>
         </div>

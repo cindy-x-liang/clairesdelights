@@ -13,6 +13,6 @@ export const Home = () =>{
        
         <img src={imageIntro}/>
         <div></div>
-        <button  onClick={() => navigate('/shop')}>Start Shopping</button>
+        <button  onClick={() => navigate('/clairesdelights/shop')}>Start Shopping</button>
     </div>
 };

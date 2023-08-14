@@ -10,6 +10,6 @@ export const Finished = () =>{
     <p>Orders will not be processed until payment is received. </p>
        
         <div></div>
-        <button onClick={() => navigate('/shop')}>Keep Shopping</button>
+        <button onClick={() => navigate('/clairesdelights/shop')}>Keep Shopping</button>
     </div>
 };
