@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clairesdelights/static/css/main.e28447f1.css",
-    "main.js": "/clairesdelights/static/js/main.df58fa0b.js",
+    "main.js": "/clairesdelights/static/js/main.dcf7d7fc.js",
     "static/media/a3.png": "/clairesdelights/static/media/a3.064287e84032a1b1e2e8.png",
     "static/media/a1.png": "/clairesdelights/static/media/a1.5358c1a4c914568385f4.png",
     "static/media/fram4.png": "/clairesdelights/static/media/fram4.c82fc8fff1edf37b9c9d.png",
@@ -14,10 +14,10 @@
     "static/media/img8.png": "/clairesdelights/static/media/img8.516d9bb6ba3976c6b2c3.png",
     "index.html": "/clairesdelights/index.html",
     "main.e28447f1.css.map": "/clairesdelights/static/css/main.e28447f1.css.map",
-    "main.df58fa0b.js.map": "/clairesdelights/static/js/main.df58fa0b.js.map"
+    "main.dcf7d7fc.js.map": "/clairesdelights/static/js/main.dcf7d7fc.js.map"
   },
   "entrypoints": [
     "static/css/main.e28447f1.css",
-    "static/js/main.df58fa0b.js"
+    "static/js/main.dcf7d7fc.js"
   ]
 }
