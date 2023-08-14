@@ -16,11 +16,11 @@ function App() {
       <Router >
         <Navbar/>
         <Routes>
-          <Route path = "/" element={<Home/>} />
-          <Route path = "/shop" element={<Shop/>} />
-          <Route path = "/cart"element={<Cart/>} />
-          <Route path = "/checkout"element={<Checkout/>} />
-          <Route path = "/orderplaced"element={<Finished/>} />
+          <Route path = "/clairesdelights/" element={<Home/>} />
+          <Route path = "/clairesdelights/shop" element={<Shop/>} />
+          <Route path = "/clairesdelights/cart"element={<Cart/>} />
+          <Route path = "/clairesdelights/checkout"element={<Checkout/>} />
+          <Route path = "/clairesdelights/orderplaced"element={<Finished/>} />
         </Routes>
       </Router>
       </ShopContextProvider>
