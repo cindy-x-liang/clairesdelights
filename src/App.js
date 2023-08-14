@@ -7,22 +7,22 @@ import {Home} from './pages/home/home'
 import {Checkout} from './pages/checkout/checkout'
 import {Finished} from './pages/finished/finished'
 import { ShopContextProvider } from "./context/shop-context";
-import { BrowserRouter } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
       <ShopContextProvider>
 
-      <BrowserRouter basename={"http://cindy-x-liang.github.io/"}>
+      <Router >
         <Navbar/>
         <Routes>
-          <Route path = "/" element={<Home/>} />
-          <Route path = "/shop" element={<Shop/>} />
-          <Route path = "/cart"element={<Cart/>} />
-          <Route path = "/checkout"element={<Checkout/>} />
-          <Route path = "/orderplaced"element={<Finished/>} />
+          <Route path = "/clairesdelights" element={<Home/>} />
+          <Route path = "/clairesdelights/shop" element={<Shop/>} />
+          <Route path = "/clairesdelights/cart"element={<Cart/>} />
+          <Route path = "/clairesdelights/checkout"element={<Checkout/>} />
+          <Route path = "/clairesdelights/orderplaced"element={<Finished/>} />
         </Routes>
-      </BrowserRouter>
+      </Router>
       </ShopContextProvider>
     </div>
   );
