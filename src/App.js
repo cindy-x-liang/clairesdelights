@@ -7,13 +7,13 @@ import {Home} from './pages/home/home'
 import {Checkout} from './pages/checkout/checkout'
 import {Finished} from './pages/finished/finished'
 import { ShopContextProvider } from "./context/shop-context";
-
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
       <ShopContextProvider>
 
-      <Router>
+      <BrowserRouter basename={"http://cindy-x-liang.github.io/"}>
         <Navbar/>
         <Routes>
           <Route path = "/" element={<Home/>} />
@@ -22,7 +22,7 @@ function App() {
           <Route path = "/checkout"element={<Checkout/>} />
           <Route path = "/orderplaced"element={<Finished/>} />
         </Routes>
-      </Router>
+      </BrowserRouter>
       </ShopContextProvider>
     </div>
   );
