@@ -1,0 +1,79 @@
+.cart {
+    color: rgb(227, 76, 129);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .cartItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+  }
+  
+  .cartItem img {
+    width: 200px;
+  }
+  
+  .cartItem .description {
+    width: 100%;
+    font-size: 30px;
+    color: rgb(227, 76, 129)
+  }
+  
+  .countHandler input {
+    width: 40px;
+    color: rgb(227, 76, 129);
+    border-color:  rgb(227, 76, 129);;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .countHandler button {
+
+    color: rgb(227, 76, 129);
+    border-color:  rgb(227, 76, 129);;
+ 
+  }
+
+  .checkoutButt button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(227, 76, 129);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  
+  .checkoutButt button{
+    background-color: transparent;
+    border: 2px solid rgb(227, 76, 129);
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #FFE7E7;
+    font-family:  sans-serif;
+    margin: 10px;
+  box-sizing: border-box;
+  color: rgb(227, 76, 129);
+  cursor: pointer;
+  
+  
+}
+
+.checkoutButt button:hover {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
